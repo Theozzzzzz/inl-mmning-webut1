@@ -1,0 +1,206 @@
+
+.fromcornerright{
+  right: 1%;
+}
+.fromcornerleft{
+  left: 1%;
+}
+.textright{
+  position: absolute;
+  top: 8%;
+  right: 33%;
+}
+.paragrahright{
+  position: absolute;
+  top: 16%;
+  left: 52.5%;
+}
+.paragrahleft{
+  position: absolute;
+  right: 75%;
+}
+.kolumn{
+  background-color: #111;
+  width: 200px;
+}
+.innebandybild{
+  position: absolute;
+  top:45%;
+  left: 53%;
+  width: 700px;
+  height: 300px;
+
+}
+.bildpåmig{
+  position: absolute;
+  left: 27.5%;
+  top: 15%;
+  width: 300px;
+  height: 500px;
+  border-radius: 50px;
+}
+
+img{
+  border-radius: 50px;
+}
+
+#frankoimg{
+  position:absolute;
+  top: 120%;
+  width: 100%;
+  height: 110%;
+
+}
+body{
+    background-color: rgb(180, 213, 219);
+    overflow-x: hidden;
+}
+
+p{
+    font-size: 17px;
+    font-weight: bold;
+    color: darkgreen;
+}
+h1{
+  color: darkgreen;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(55, 55, 112);
+    border-radius: 20px;
+  }
+
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: lightgreen;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+    border-radius: 20px;
+  }
+
+  li a:hover {
+    background-color: #111;
+  }
+  .line {
+    position: absolute;
+    border-left: 10px solid rgba(50, 102, 176, 0.4);
+    height: 79%;
+    top:  100px;
+    left: 50%;
+    margin-left: -3px;
+    border-radius: 100px;
+  }
+  
+  .hline{
+    border: none;
+    height: 10px;
+    width: 48%; 
+    position: absolute; 
+    transform: translateX(2%); 
+    background-color: rgba(50, 102, 176, 0.4);
+    border-radius: 100px;
+    padding: 0%;
+    margin: 0%;
+    } 
+  .leftlane{
+    top: 94%;
+  }
+  .rightlane{
+    right: 2.2%;  
+    top: 94%;
+  }
+  .centerlane{
+    top: 250%;
+    width: 100%;
+    right: 1.9%;
+  }
+  .centertext{
+    font-size: 240%;
+  }
+  .h2box{
+    position: absolute;
+    right: 41%;
+    top: 100%;
+    width: 17%;
+    border-radius: 100px;
+    text-align: center;
+    display: block;
+    background-color: rgba(50, 102, 176, 0.4);
+    color: darkgreen;
+  }
+  
+  .frankotext{
+    position: absolute;
+    text-align: center;
+    display: block;
+    left: 25%;
+    top: 230%;
+    width: 50%;
+  }
+
+  .contact{
+    float: none;
+    position: absolute;
+    display: block;
+    width: auto;
+    text-align: center;
+    left: 35%;
+    top: 260%;
+    height: 13%;
+  }
+
+
+
+
+/*favvomusik*/
+
+#headlinekanye{
+    text-align: center;
+}
+.topright{
+    position: absolute;
+    top: 22%;
+    right: 16%;
+}
+#kanyepic{
+    object-position: right middle;
+    width: 500px;
+    height: 300px;
+}
+   
+button{ 
+    width: 30%;
+    height: 5vw;
+    position: absolute;
+    left: 70vw;
+    top: 40vh;
+    transform: translate(-50%,-80%);
+    font-family: 'Varela round', sans-serif;
+    font-size: 2vw;
+    letter-spacing: 0.1em;
+    color:black;
+    font-weight: bold;
+    border:none;
+    border-radius:10px;
+    outline:none;
+    background: linear-gradient(blue, lightblue, greenyellow);
+    background-size:400% 400%;
+    box-shadow: 1vw 1vw black;
+  
+    &:hover{
+      animation:gradient 10s ease infintie;
+      font-size: 2.05vw;
+      box-shadow: 0.2vw 0.2vw 0 darkblue;
+    }
+  }
+  
