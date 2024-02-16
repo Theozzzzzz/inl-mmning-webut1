@@ -86,11 +86,25 @@ ul{
     padding: 14px 16px;
     text-decoration:none;
     border-radius: 20px;
+    font-size: 16px;
+  }
+  li i {
+    display: block;
+    color: lightgreen;
+    text-align: center;
+    font-size: 16px;
+    padding: 14px 16px;
+    text-decoration:none;
+    border-radius: 20px;
+    margin-left: 2130%;
   }
 
   li a:hover {
     background-color: #111;
   }
+  li i:hover {
+    background-color: #111;
+    }
   .line {
     position: absolute;
     border-left: 10px solid rgba(50, 102, 176, 0.4);
